@@ -386,7 +386,7 @@ header .hamburger {
       -webkit-text-stroke: 1px var(--primary-color);
       color: var(--primary-color);
       text-shadow:
-        1px 2px 0 #fff,
+        1px 1px 0 #fff,
         -1px -1px 0 #fff,
         1px -1px 0 #fff,
         -1px 1px 0 #fff,
@@ -1162,7 +1162,8 @@ section:nth-of-type(6) {
 
   &:nth-of-type(2) {
     background: var(--bg-price-special);
-    transform: scaleY(1.05);
+    /* transform: scaleY(1.05); */
+    padding: 2.5rem 2rem 3rem 2rem;
     position: relative;
 
     &::before {
@@ -1626,7 +1627,7 @@ footer {
     flex-wrap: wrap;
 
     .price-con:nth-of-type(2) {
-      transform: unset;
+      padding: 2rem 2rem 3rem 2rem;
     }
   }
 

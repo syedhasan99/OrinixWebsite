@@ -1,3 +1,5 @@
+AOS.init();
+
 let menuBtn = document.getElementById('menu-btn');
 let menu = document.getElementById('menu');
 
